@@ -1,0 +1,44 @@
+Chris Idica  to  Everyone 3:58 PM
+I have a different result
+
+Fernanda Marie Batobato  to  Everyone 3:59 PM
+is the blue dot on the side of the command line means it worked?
+
+Robert Turner  to  Everyone 3:59 PM
+mine all good
+
+Ariston  to  Everyone 4:01 PM
+15 minutes break! ⏱️
+
+Ariston  to  Everyone 3:57 PM
+git commit -m "Create notes for CLI."
+
+Ariston  to  You (direct message) 4:06 PM
+Graphical User Interface (GUI) vs Command-line Interface (CLI)
+
+- Make directory
+mkdir [directory_name]
+
+- Remove directory
+rmdir [directory_name]
+
+- Print/Present Working Directory
+pwd
+
+- List all folders and files
+ls
+
+- Change Directory
+cd [directory_name/path]
+
+- Go back one directory
+cd ..
+
+- Create a file
+touch [filename.extension]
+
+- Delete a file
+rm [filename.extension]
+
+- Clear the terminal 
+clear
