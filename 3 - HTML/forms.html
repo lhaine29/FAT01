@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+        <label for="fullname-id">Name:</label>
+        <input type="text" name="user-fullname" id="fullname-id" placeholder="Fullname" required>
+    </div>
+    <div>
+        <label for="email-id">Email:</label>
+        <input type="email" name="user-email" id="email-id" placeholder="user@exmple.com" required>
+    </div>
+    <div>
+        <label for="password-id">Password:</label>
+        <input type="password" name="user-password" id="password-id" placeholder="*********" required>
+    </div>
+    <div>
+        <label for="age-id">Age:</label>
+        <input type="number" name="user-age" id="age-id" placeholder="" min="18" max="100">
+    </div>
+    <div>
+        <label for="message-id">Message:</label>
+        <br>
+        <textarea
+          name="user-message"
+          id="message-id"
+          placeholder="What's on your mind."
+          rows="10"
+          cols="30"
+        ></textarea>
+      </div>
+    <div>
+        <label for="gender-id">Gender:</label>
+        <select name="user-gender"  id="gender-id">
+            <option value="None" selected disabled hidden>Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+    </div>
+    <div>
+        <label for="birthdate-id">Birthdate:</label>
+        <input type="date" name="user-birthdate" id="birthdate-id" required>
+    </div>
+    <div>
+        <label for="status-id">Status:</label>
+        <input type="radio" name="status" value="public"  id="public-id" required>Public
+        <input type="radio" name="status" value="private"  id="private-id" required>Private
+    </div>  
+    <div>
+        <input type="checkbox" name="genre" id="comedy-id" value="comedy">Comedy
+
+        <input type="checkbox" name="genre" id="horror-id" value="horror">horror
+        
+        <input type="checkbox" name="genre" id="scifi-id" value="scifi">SCi-fi
+        
+        <input type="checkbox" name="genre" id="action-id" value="action">Action
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+    </form>
+
+</body>
+</html>
