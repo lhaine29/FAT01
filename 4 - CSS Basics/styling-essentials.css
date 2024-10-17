@@ -1,0 +1,30 @@
+#text-styling{
+    /* font fallback */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+    font-style: oblique;
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+#text-decoration{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-decoration: 3px underline blue;
+}
+#colors{
+    color: rgb(38, 0, 255);
+    background-color: rgb(204, 28, 192, 0.5);
+}
+#absolute-unit-px{
+    font-size: 15px;
+}
+#relative-unit-em{
+    font-size: 3em;
+}
+#relative-unit-rem{
+    font-size: 3rem;
+}

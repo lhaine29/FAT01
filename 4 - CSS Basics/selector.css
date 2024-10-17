@@ -1,0 +1,38 @@
+/* Element Selector */
+span {
+    background-color: green;
+    color: white;
+  }
+
+  /* Class Selector */
+  .intro-paragraphs{
+    text-align: center;
+    letter-spacing: 3px;
+  }
+/* ID Seletor */
+  #main-heading{
+    line-height: 4;
+    text-decoration:overline;
+  }
+/* Universal Seletor */
+  *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+/* Grouping selector */
+h1, h2, .about-content{
+    background-color: darksalmon;
+    color: aliceblue;
+}
+/* Descendant Selector */
+.article-container p{
+    font-style: italic;
+    color: rgb(42, 93, 165);
+}
+
+/* Pseudo-classes */
+a:hover{
+    color: fuchsia;
+}
+a:active{
+    color: crimson;
+}
