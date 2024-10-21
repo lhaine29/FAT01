@@ -1,0 +1,39 @@
+/* padding space within the box */
+.box1{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+  /* Clockwise */
+  /* 1 value = all sides */
+  /* 2 values = top/bottom,  */
+  /* 3 values = top, right/left, bottom*/
+  /* 4 values = top, right, bottom, left */
+.box2{
+    padding: 20px;
+}
+
+/* Margin = the space outside of the box */
+.box3{
+    margin: 10px;
+}
+.box4{
+    margin: 10px, 20px, 3px, 40px;
+}
+.mix-borders{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 150px;
+    border-style: solid double dotted dashed;
+    border-width: 5px;
+    border-color: blueviolet violet;
+}
+.circle-container{
+    background-color: coral;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
